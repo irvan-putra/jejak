@@ -20,3 +20,24 @@ Idea stage. No code, no experiments, no results. No license selected; treat the 
 ## Attribution
 
 The proposal text is attributed to Google Gemini. This document establishes no claim about who originated the ideas in it, and no novelty or priority claim.
+
+## Runnable prototype
+
+`rtm.py` demonstrates the two traceability directions on an embedded example
+project (or your own files): it parses requirements from Markdown and code
+units with the `ast` module, links them by TF-IDF cosine similarity, and
+reports possible coverage gaps (forward) and possible orphan code (backward).
+All links are inferred heuristics, not verified coverage - see
+`framing-and-limitations.md`.
+
+    python3 rtm.py                     # text report
+    python3 rtm.py --viz rtm_heatmap.png   # similarity heatmap (needs matplotlib)
+    python3 rtm.py --reqs REQS.md --src src/   # your own project
+
+See `TESTING.md` for verified commands, dependencies, and known limits.
+
+## Project site
+
+When GitHub Pages is enabled (from `docs/`), an overview site with run
+instructions and the generated heatmap is at
+https://irvan-putra.github.io/jejak/ .
