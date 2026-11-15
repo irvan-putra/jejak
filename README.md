@@ -41,3 +41,21 @@ See `TESTING.md` for verified commands, dependencies, and known limits.
 When GitHub Pages is enabled (from `docs/`), an overview site with run
 instructions and the generated heatmap is at
 https://irvan-putra.github.io/jejak/ .
+
+## Suggested next experiment (15 Nov 2026)
+
+Suggestion, not a commitment or a result: make the next milestone evidence,
+not more features. Try `rtm.py` on one small real Python repo with 5-10
+requirements. Write down the expected requirement-to-code links yourself
+before running it, then grade its suggestions: useful, wrong, or missed.
+The script already accepts requirements and a source directory
+(`--reqs REQS.md --src src/`), so that tests something real without a
+bigger platform build.
+
+If the links help, a PR-check integration becomes worth considering. If
+they are mostly noise, improve the matching or park it cheaply. Either
+result is useful, and could become an honest portfolio write-up if shared.
+
+Across the four sibling repos (gotong, mimpi, anyam, jejak): choose just
+one next rather than abandoning the others; this one is the suggested
+first pick as the clearest, lowest-commitment test.
