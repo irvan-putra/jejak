@@ -55,7 +55,3 @@ bigger platform build.
 If the links help, a PR-check integration becomes worth considering. If
 they are mostly noise, improve the matching or park it cheaply. Either
 result is useful, and could become an honest portfolio write-up if shared.
-
-Across the four sibling repos (gotong, mimpi, anyam, jejak): choose just
-one next rather than abandoning the others; this one is the suggested
-first pick as the clearest, lowest-commitment test.
