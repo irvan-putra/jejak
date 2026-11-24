@@ -55,3 +55,7 @@ bigger platform build.
 If the links help, a PR-check integration becomes worth considering. If
 they are mostly noise, improve the matching or park it cheaply. Either
 result is useful, and could become an honest portfolio write-up if shared.
+
+---
+
+Built with AI assistance (Instinct and others). Not everything has been reviewed by Irvan.
