@@ -38,9 +38,8 @@ See `TESTING.md` for verified commands, dependencies, and known limits.
 
 ## Project site
 
-When GitHub Pages is enabled (from `docs/`), an overview site with run
-instructions and the generated heatmap is at
-https://irvan-putra.github.io/jejak/ .
+An overview site with run instructions and the generated heatmap is at
+https://vanipy.com/jejak/ .
 
 ## Suggested next experiment (15 Nov 2026)
 
